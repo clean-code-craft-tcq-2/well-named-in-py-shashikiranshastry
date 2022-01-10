@@ -6,8 +6,7 @@ def print_color_code_mapping():
     print('{:15} {:15} {:5} \n'.format('Major Color', 'Minor Color', 'Pair No.'))
     for major_color_index, major_color in enumerate(MAJOR_COLORS):
         for minor_color_index, minor_color in enumerate(MINOR_COLORS):
-            print('{:15} {:15} {:5} \n'.format(major_color, minor_color,
-                                               major_color_index * len(MINOR_COLORS) + minor_color_index + 1))
+            print('{:15} {:15} {:5} \n'.format(major_color, minor_color, major_color_index * len(MINOR_COLORS) + minor_color_index + 1))
 
 
 def get_color_from_pair_number(pair_number):
