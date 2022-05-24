@@ -1,4 +1,4 @@
-import color_to_code
+import color_code
 
 def test_number_to_pair(pair_number, expected_major_color, expected_minor_color):
     major_color, minor_color = color_to_code.get_color_from_pair_number(pair_number)
